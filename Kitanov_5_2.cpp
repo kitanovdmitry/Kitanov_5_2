@@ -37,7 +37,7 @@ void filling_additional_array(int *additional_array, int add_arr_size)
 void encoder (char *encoding_str, int length_encoding_str, int *encoded_str)
 {
     char base_str [] = {"When Israel was in Egypt land... Joe, shake a-like a Gioviano / So the God said: go down, Moses way down in Egypt land..."};
-    const int add_arr_size = 150;
+    const int add_arr_size = length_encoding_str;
     int additional_array[add_arr_size];
 
     filling_additional_array(additional_array, add_arr_size);
